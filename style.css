@@ -26,7 +26,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 90px;
 }
 
 header > nav > div > a {
@@ -41,6 +41,10 @@ header > nav > div {
     border: 1px gray solid;
     padding: 10px 3px;
     border-radius: 30px;
+}
+
+header > nav > h1 > i {
+    font-size: 40px;
 }
 
 #home {
@@ -79,7 +83,7 @@ header {
     margin-top: 25%;
     font-size: 110px;
     color: aliceblue;
-    line-height: 0.9;
+    line-height: 0.8;
     font-weight: 800;
 }
 #span-shape {
