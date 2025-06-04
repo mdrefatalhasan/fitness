@@ -99,7 +99,7 @@ header {
 
 #btn>a {
     text-decoration: none;
-    color: white;
+    color: aliceblue;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     padding: 12px 30px;
@@ -119,4 +119,88 @@ header {
 #btn-right {
     margin-left: 20px;
     border: 1px rgb(255, 255, 255) solid;
+}
+
+#right-header {
+    background-image: url('images/Images\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+#div-one {
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    height: 120px;
+    width: 240px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    font-family: "Inter", sans-serif;
+    padding: 15px 20px;
+}
+
+#div-one>h1 {
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+#div-one>p {
+    font-size: 20px;
+    color: rgb(165, 165, 165);
+}
+
+#div-two {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+    height: 120px;
+    width: 240px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    font-family: "Inter", sans-serif;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button {
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(255, 255, 255);
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin: auto;
+}
+
+
+#div-two>div>h1 {
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+#div-two>div>p {
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+    padding-left: 15px;
 }
