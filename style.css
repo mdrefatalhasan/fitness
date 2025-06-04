@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 html,
@@ -29,7 +28,7 @@ nav {
     height: 90px;
 }
 
-header > nav > div > a {
+header>nav>div>a {
     text-decoration: none;
     color: white;
     margin-right: 20px;
@@ -37,13 +36,13 @@ header > nav > div > a {
     font-weight: 300;
 }
 
-header > nav > div {
+header>nav>div {
     border: 1px gray solid;
     padding: 10px 3px;
     border-radius: 30px;
 }
 
-header > nav > h1 > i {
+header>nav>h1>i {
     font-size: 40px;
 }
 
@@ -54,11 +53,8 @@ header > nav > h1 > i {
 }
 
 header {
-    background: linear-gradient(
-        180deg,
-        rgb(17, 17, 17),
-        rgba(119, 119, 119, 0) 100%
-    );
+    background: #000000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(77, 77, 77, 1) 51%, rgba(0, 0, 0, 1) 100%);
     height: 100vh;
     width: 100vw;
 }
@@ -78,7 +74,7 @@ header {
     width: 35%;
 }
 
-#left-header > h1 {
+#left-header>h1 {
     font-family: "Inter", sans-serif;
     margin-top: 25%;
     font-size: 110px;
@@ -86,12 +82,14 @@ header {
     line-height: 0.8;
     font-weight: 800;
 }
+
 #span-shape {
     font-family: "Miama", sans-serif;
     font-size: 220px;
     font-weight: 300;
 }
-#left-header > p {
+
+#left-header>p {
     font-family: "Inter", sans-serif;
     margin-top: 20px;
     font-size: 20px;
@@ -99,7 +97,7 @@ header {
     font-weight: 400;
 }
 
-#btn > a {
+#btn>a {
     text-decoration: none;
     color: white;
     font-family: "Inter", sans-serif;
