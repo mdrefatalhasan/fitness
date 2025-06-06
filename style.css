@@ -236,14 +236,14 @@ header {
 
     #left-header>h1 {
         margin-top: 10px;
-        font-size: 50px;
-        line-height: 0.8;
+        font-size: 40px;
+        line-height: 0.7;
         font-weight: 700;
         margin-left: 24px;
     }
 
     #left-header>p {
-        margin-top: 15px;
+        margin-top: 12px;
         font-size: 12px;
         font-weight: 200;
         opacity: 0.8;
@@ -252,18 +252,18 @@ header {
     }
 
     #span-shape {
-        font-size: 100px;
+        font-size: 90px;
         font-weight: 300;
     }
 
     #btn>a {
         font-weight: 400;
-        padding: 12px 20px;
+        padding: 10px 18px;
         font-size: 14px;
     }
 
     #btn {
-        margin-top: 20px;
+        margin-top: 16px;
         margin-left: 22px;
         display: flex;
         justify-content: start;
@@ -271,14 +271,12 @@ header {
     }
 
     #right-header {
-        background-position: center;
         background-size: contain;
         position: absolute;
         bottom: 0;
         height: 50vh;
+        margin-top: 10px;
     }
-
-
 
     #div-one>h1,
     #div-two>div>h1 {
