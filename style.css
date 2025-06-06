@@ -204,3 +204,130 @@ header {
     color: rgb(165, 165, 165);
     padding-left: 15px;
 }
+
+@media (max-width: 600px) {
+    nav>div {
+        display: none;
+    }
+
+    nav>h1>i {
+        display: flex;
+        position: absolute;
+        left: 30px;
+        top: 30px;
+    }
+
+    header>nav>h1>i {
+        font-size: 30px;
+    }
+
+    #header {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #left-header,
+    #right-header {
+        height: auto;
+        width: 100vw;
+    }
+
+    #left-header>h1 {
+        margin-top: 10px;
+        font-size: 50px;
+        line-height: 0.8;
+        font-weight: 700;
+        margin-left: 24px;
+    }
+
+    #left-header>p {
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: 200;
+        opacity: 0.8;
+        overflow: hidden;
+        padding: 0px 24px;
+    }
+
+    #span-shape {
+        font-size: 100px;
+        font-weight: 300;
+    }
+
+    #btn>a {
+        font-weight: 400;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    #btn {
+        margin-top: 20px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #right-header {
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        bottom: 0;
+        height: 50vh;
+    }
+
+
+
+    #div-one>h1,
+    #div-two>div>h1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #div-one>p,
+    #div-two>div>p {
+        font-size: 8px;
+    }
+
+    #div-one,
+    #div-two {
+        position: absolute;
+        padding: 15px 20px;
+    }
+
+    #div-one {
+        right: 40px;
+        top: 80px;
+        height: 60px;
+        width: 130px;
+        padding: 0px 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    #div-two {
+        left: 30px;
+        bottom: 60px;
+        height: 60px;
+        width: 130px;
+        padding: 0px 12px;
+    }
+
+    #circle {
+        height: 30px;
+        width: 30px;
+        border-radius: 60px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .play-button {
+        border-left: 10px solid rgb(255, 255, 255);
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+    }
+}
