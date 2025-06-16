@@ -60,6 +60,22 @@ nav>div>li>a {
     display: none;
 }
 
+section {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+
+#left-div {
+    width: 30%;
+    border: 1px white solid;
+}
+
+#right-div {
+    width: 30%;
+    border: 1px white solid;
+}
+
 @media (max-width: 576px) {
     #menu-icon {
         display: block;
