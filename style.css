@@ -1,331 +1,85 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/miama");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.233);
-}
-
-#Title {
-    font-family: "Inter", sans-serif;
-    color: rgb(255, 82, 19);
-    font-size: 30px;
-    font-weight: 800;
+    background-color: black;
+    overflow-x: hidden;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90px;
+    padding: 20px;
 }
 
-header>nav>div>a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
+nav>div>h1 {
     font-family: "Inter", sans-serif;
-    font-weight: 300;
-}
-
-header>nav>div {
-    border: 1px gray solid;
-    padding: 10px 3px;
-    border-radius: 30px;
-}
-
-header>nav>h1>i {
-    font-size: 40px;
-}
-
-#home {
-    background-color: rgb(255, 82, 19);
-    padding: 7px 20px;
-    border-radius: 20px;
-}
-
-header {
-    background: #000000;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(77, 77, 77, 1) 51%, rgba(0, 0, 0, 1) 100%);
-    height: 100vh;
-    width: 100vw;
-}
-
-#header {
-    height: 90vh;
-    width: 100vw;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-}
-
-#left-header,
-#right-header {
-    height: 100%;
-    width: 35%;
-}
-
-#left-header>h1 {
-    font-family: "Inter", sans-serif;
-    margin-top: 25%;
-    font-size: 110px;
-    color: aliceblue;
-    line-height: 0.8;
+    font-size: 2em;
+    font-style: italic;
+    color: orangered;
     font-weight: 800;
 }
 
-#span-shape {
-    font-family: "Miama", sans-serif;
-    font-size: 220px;
-    font-weight: 300;
+#nav-list {
+    display: flex;
+    border: 1px solid gray;
+    padding: 9px 9px 9px 1px;
+    border-radius: 50px;
 }
 
-#left-header>p {
-    font-family: "Inter", sans-serif;
-    margin-top: 20px;
-    font-size: 20px;
-    color: rgb(216, 216, 216);
-    font-weight: 400;
+nav>div>li {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
 }
 
-#btn>a {
+nav>div>li>a {
     text-decoration: none;
-    color: aliceblue;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    padding: 12px 30px;
-    border-radius: 30px;
-    font-size: 20px;
-}
-
-#btn {
-    margin-top: 20px;
-    display: flex;
-}
-
-#btn-left {
-    background-color: orangered;
-}
-
-#btn-right {
-    margin-left: 20px;
-    border: 1px rgb(255, 255, 255) solid;
-}
-
-#right-header {
-    background-image: url('images/Images\ 2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    position: relative;
-}
-
-#div-one {
-    box-sizing: border-box;
-    position: absolute;
-    top: 200px;
-    right: 50px;
-    height: 120px;
-    width: 240px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    font-family: "Inter", sans-serif;
-    padding: 15px 20px;
-}
-
-#div-one>h1 {
-    font-size: 50px;
     color: aliceblue;
-    font-weight: 900;
+    font-size: 0.8em;
 }
 
-#div-one>p {
-    font-size: 20px;
-    color: rgb(165, 165, 165);
-}
-
-#div-two {
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 150px;
-    left: 20px;
-    height: 120px;
-    width: 240px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    font-family: "Inter", sans-serif;
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
-}
-
-#circle {
-    height: 60px;
-    width: 60px;
+#span-home {
+    background-color: orangered;
+    padding: 8px;
     border-radius: 50px;
-    background-color: orangered;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.play-button {
-    width: 0;
-    height: 0;
-    border-left: 20px solid rgb(255, 255, 255);
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    margin: auto;
+#menu-icon {
+    display: none;
 }
 
+@media (max-width: 576px) {
+    #menu-icon {
+        display: block;
+        font-size: 1.5em;
+        cursor: pointer
+    }
 
-#div-two>div>h1 {
-    font-size: 30px;
-    color: aliceblue;
-    font-weight: 900;
-    padding-left: 15px;
-}
-
-#div-two>div>p {
-    font-size: 15px;
-    color: rgb(165, 165, 165);
-    padding-left: 15px;
-}
-
-@media (max-width: 600px) {
-    nav>div {
+    #nav-list {
         display: none;
     }
 
-    nav>h1>i {
+    nav {
         display: flex;
-        position: absolute;
-        left: 30px;
-        top: 30px;
+        justify-content: space-between;
+        padding: 22px 46px;
     }
 
-    header>nav>h1>i {
-        font-size: 30px;
-    }
-
-    #header {
-        height: auto;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #left-header,
-    #right-header {
-        height: auto;
-        width: 100vw;
-    }
-
-    #left-header>h1 {
-        margin-top: 10px;
-        font-size: 40px;
-        line-height: 0.7;
+    nav>div>h1 {
+        font-size: 1.8em;
         font-weight: 700;
-        margin-left: 24px;
     }
 
-    #left-header>p {
-        margin-top: 12px;
-        font-size: 12px;
-        font-weight: 200;
-        opacity: 0.8;
-        overflow: hidden;
-        padding: 0px 24px;
-    }
-
-    #span-shape {
-        font-size: 90px;
-        font-weight: 300;
-    }
-
-    #btn>a {
-        font-weight: 400;
-        padding: 10px 18px;
-        font-size: 14px;
-    }
-
-    #btn {
-        margin-top: 16px;
-        margin-left: 22px;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-
-    #right-header {
-        background-size: contain;
-        position: absolute;
-        bottom: 0;
-        height: 50vh;
-        margin-top: 10px;
-    }
-
-    #div-one>h1,
-    #div-two>div>h1 {
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    #div-one>p,
-    #div-two>div>p {
-        font-size: 8px;
-    }
-
-    #div-one,
-    #div-two {
-        position: absolute;
-        padding: 15px 20px;
-    }
-
-    #div-one {
-        right: 40px;
-        top: 80px;
-        height: 60px;
-        width: 130px;
-        padding: 0px 14px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-    }
-
-    #div-two {
-        left: 30px;
-        bottom: 60px;
-        height: 60px;
-        width: 130px;
-        padding: 0px 12px;
-    }
-
-    #circle {
-        height: 30px;
-        width: 30px;
-        border-radius: 60px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .play-button {
-        border-left: 10px solid rgb(255, 255, 255);
-        border-top: 8px solid transparent;
-        border-bottom: 8px solid transparent;
-    }
 }
