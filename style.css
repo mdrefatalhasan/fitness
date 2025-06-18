@@ -67,12 +67,10 @@ section {
     color: aliceblue;
     justify-content: center;
     height: 88vh;
-    border: 1px white solid;
 }
 
 #left-div {
     width: 32%;
-    border: 1px rgb(255, 2, 2)solid;
 }
 
 #left-div>h2 {
@@ -122,8 +120,97 @@ section {
 }
 
 #right-div {
+    background: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    position: relative;
     width: 32%;
-    border: 1px rgb(13, 0, 255) solid;
+}
+
+#vid-tutorial {
+    box-sizing: border-box;
+    width: 210px;
+    height: 110px;
+    position: absolute;
+    top: 140px;
+    right: 60px;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.08) 0%,
+            rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    backdrop-filter: blur(30px) saturate(160%);
+    -webkit-backdrop-filter: blur(30px) saturate(160%);
+    box-shadow:
+        inset 0 0 0 0.5px rgba(255, 255, 255, 0.1),
+        0 8px 24px rgba(0, 0, 0, 0.12);
+    outline: 1px solid rgba(255, 255, 255, 0.05);
+    outline-offset: -1px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+#vid-tutorial>h4,
+#free-workout>div>h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2em;
+}
+
+#vid-tutorial>p,
+#free-workout>div>p {
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    color: rgb(216, 216, 216);
+}
+
+
+#free-workout {
+    box-sizing: border-box;
+    width: 210px;
+    height: 110px;
+    position: absolute;
+    left: 80px;
+    bottom: 160px;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.08) 0%,
+            rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    backdrop-filter: blur(30px) saturate(160%);
+    -webkit-backdrop-filter: blur(30px) saturate(160%);
+    box-shadow:
+        inset 0 0 0 0.5px rgba(255, 255, 255, 0.1),
+        0 8px 24px rgba(0, 0, 0, 0.12);
+    outline: 1px solid rgba(255, 255, 255, 0.05);
+    outline-offset: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle {
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-right: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play-button {
+    width: 0;
+    height: 0;
+    border-left: 14px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-left: 3px;
 }
 
 
@@ -143,7 +230,6 @@ section {
         justify-content: space-between;
         padding: 22px 46px;
         height: 10vh;
-        border: 1px solid chartreuse;
     }
 
     nav>div>h1 {
@@ -161,7 +247,6 @@ section {
         width: 100%;
         height: 50%;
         overflow: hidden;
-        border: 1px rgb(255, 2, 2)solid;
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -202,7 +287,52 @@ section {
         width: 100%;
         height: 50%;
         overflow: hidden;
-        border: 1px rgb(13, 0, 255) solid;
     }
+
+    #vid-tutorial {
+        width: 140px;
+        height: 60px;
+        top: 40px;
+        right: 40px;
+        padding: 12px;
+    }
+
+    #vid-tutorial>h4,
+    #free-workout>div>h4 {
+        font-size: 1em;
+    }
+
+    #vid-tutorial>p,
+    #free-workout>div>p {
+        font-size: 0.7em;
+    }
+
+
+    #free-workout {
+        width: 140px;
+        height: 60px;
+        left: 60px;
+        bottom: 60px;
+    }
+
+    #circle {
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    #play-button {
+        width: 0;
+        height: 0;
+        border-left: 10px solid white;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        margin-left: 3px;
+    }
+
+
+
+
 
 }
