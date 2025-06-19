@@ -11,8 +11,12 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(8, 8, 8);
     overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
 }
 
 nav {
@@ -44,14 +48,14 @@ nav>div>h1:hover {
     text-shadow: 0 0 12px rgba(255, 69, 0, 0.6);
 }
 
-#nav-list {
+#nav-list>ul {
     display: flex;
     border: 1px solid gray;
     padding: 9px px 9px 1px;
     border-radius: 50px;
 }
 
-nav>div>li {
+nav>div>ul>li {
     list-style: none;
     display: flex;
     margin-right: 16px;
@@ -59,8 +63,8 @@ nav>div>li {
     align-items: center;
 }
 
-nav>div>li>a,
-#nav-list li a {
+nav>div>ul>li>a,
+#nav-list ul li a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -184,13 +188,30 @@ section {
 }
 
 #right-div {
-    background: url(images/hero.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: contain;
     position: relative;
     width: 32%;
+    height: 100%;
+    overflow: hidden;
 }
+
+#bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+#vid-tutorial, #free-workout {
+    z-index: 2;
+}
+
 
 #vid-tutorial,
 #free-workout {
@@ -211,7 +232,7 @@ section {
 }
 
 #vid-tutorial {
-    top: 170px;
+    top: 200px;
     right: 40px;
     display: flex;
     align-items: start;
@@ -349,7 +370,7 @@ section {
 #run-main-div {
     height: 300px;
     width: 60%;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(23, 23, 23);
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
@@ -380,7 +401,7 @@ section {
     background-color: orangered;
     border: none;
     border-radius: 50px;
-    margin-top: 24px;
+    margin-top: 22px;
     cursor: pointer;
 }
 
@@ -389,6 +410,8 @@ section {
     font-family: "Inter", sans-serif;
     font-size: 2em;
     text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
 }
 
 #run-right-div {
