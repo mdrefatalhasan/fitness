@@ -17,11 +17,15 @@ const images = [
   'images/slide/16.png',
 ];
 
+images.forEach((src) => {
+  const img = new Image();
+  img.src = src;
+});
+
 let current = 0;
 const bgLayer = document.getElementById('bg-layer');
 
 bgLayer.style.backgroundImage = `url(${images[current]})`;
-
 current++;
 
 function changeBackground() {
