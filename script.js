@@ -38,4 +38,4 @@ function changeBackground() {
   }, 1000);
 }
 
-setInterval(changeBackground, 3000);
+setInterval(changeBackground, 2500);
