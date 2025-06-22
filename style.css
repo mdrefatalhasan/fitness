@@ -208,7 +208,8 @@ section {
     opacity: 1;
 }
 
-#vid-tutorial, #free-workout {
+#vid-tutorial,
+#free-workout {
     z-index: 2;
 }
 
@@ -427,6 +428,110 @@ section {
     border-radius: 14px;
 }
 
+#training-exercises {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading-of-te {
+    width: 60%;
+}
+
+#heading-of-te>h3 {
+    font-size: 2em;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+#heading-of-te>p {
+    font-size: 1em;
+    color: rgb(161, 161, 161);
+    padding-top: 6px;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
+
+#images-of-te {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 50%;
+    margin-top: 28px;
+}
+
+#images-of-te>div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-div {
+    height: 100%;
+    width: 34%;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    padding: 30px;
+    font-size: 1em;
+    font-style: italic;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-shadow: 0 0 6px black;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+}
+
+#img1 {
+    background-image: url(images/exercise1.jpg);
+    align-items: start;
+    justify-content: start;
+}
+
+#img2 {
+    background-image: url(images/exercise2.png);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#img3 {
+    background-image: url(images/exercise3.png);
+    align-items: end;
+    justify-content: start;
+}
+
+#img4 {
+    background-image: url(images/exercise4.png);
+    align-items: center;
+    justify-content: start;
+}
+
+#img5 {
+    background-image: url(images/exercise5.jpg);
+    align-items: start;
+    justify-content: flex-end;
+}
+
+#img6 {
+    background-image: url(images/exercise6.jpg);
+    align-items: end;
+    justify-content: end;
+}
+
+
 
 
 @media (max-width: 576px) {
@@ -623,4 +728,74 @@ section {
         width: 80%;
         height: auto;
     }
+
+    #training-exercises {
+        height: 120%;
+    }
+
+    #heading-of-te {
+        width: 80%;
+    }
+
+    #heading-of-te>h3 {
+        font-size: 1.5em;
+    }
+
+    #heading-of-te>p {
+        font-size: 0.9em;
+    }
+
+    #images-of-te {
+        width: 80%;
+        height: 80%;
+    }
+
+    #images-of-te>div {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .images-div {
+        height: 100%;
+        width: 100%;
+    }
+
+    #img1 {
+        border-radius: 10px;
+        margin-bottom: 16px;
+        background-position: top;
+    }
+
+    #img2 {
+        border-radius: 10px;
+        margin-bottom: 16px;
+        background-position: center;
+
+    }
+
+    #img3 {
+        border-radius: 10px;
+        margin-bottom: 16px;
+        background-position: top;
+    }
+
+    #img4 {
+        border-radius: 10px;
+        margin-bottom: 16px;
+        background-position: top;
+    }
+
+    #img5 {
+        border-radius: 10px;
+        margin-bottom: 16px;
+        background-position: top;
+    }
+
+    #img6 {
+        border-radius: 10px;
+        background-position: center;
+    }
+
+
 }
