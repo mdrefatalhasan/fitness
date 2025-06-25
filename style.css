@@ -682,6 +682,96 @@ section {
     background-image: url(images/trainer6.png);
 }
 
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: fit-content;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer>div {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+footer>div>div {
+    height: 26vh;
+    width: 30%;
+    overflow: hidden;
+    border: #ffffff 1px dashed;
+}
+
+#footer-left {
+    width: 40%;
+}
+
+#footer-left>h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    font-style: italic;
+    color: orangered;
+    font-weight: 800;
+}
+
+#footer-left>p {
+    line-height: 1.2;
+    font-size: 1em;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    color: rgb(152, 152, 152);
+}
+
+.footer-mdl-rgt {
+    padding-left: 100px;
+}
+
+.footer-mdl-rgt>h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6em;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+.footer-mdl-rgt>ul>li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-mdl-rgt>ul>li>a {
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    color: rgb(180, 180, 180);
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#copyright-mark {
+    border-top: 1px rgb(83, 83, 83) solid;
+    width: 80%;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #ffffff 1px dashed;
+}
+
+#copyright-mark>p {
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    color: rgb(82, 82, 82);
+    text-transform: uppercase;
+}
+
+
 
 @media (max-width: 576px) {
     #menu-icon {
@@ -1000,5 +1090,56 @@ section {
     .team-image {
         width: 90%;
         margin: 10px;
+    }
+
+    footer {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer>div {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer>div>div {
+        height: fit-content;
+        margin-top: 40px;
+        width: 80%;
+    }
+
+    #footer-left {
+        width: 80%;
+        padding: 0px 20px 20px 0px;
+    }
+
+    #footer-left>h1 {
+        font-size: 2em;
+    }
+
+    #footer-left>p {
+        font-size: 0.8em;
+    }
+
+    .footer-mdl-rgt {
+        padding-left: 0px;
+    }
+
+    #copyright-mark {
+        width: 100%;
+        padding: 40px 0px 40px 0px;
+    }
+
+    #copyright-mark>p {
+        font-size: 0.7em;
     }
 }
