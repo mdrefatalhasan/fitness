@@ -1141,3 +1141,164 @@ footer>div>div {
         font-size: 0.7em;
     }
 }
+
+@media (min-width: 577px) and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 80px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 180vh;
+    }
+
+    #left-div,
+    #right-div {
+        width: 80%;
+        height: 80vh;
+    }
+
+    #left-div>h2 {
+        font-size: 4em;
+        margin-top: 18%;
+    }
+
+    #shape {
+        font-size: 1.4em;
+    }
+
+    #left-div>p {
+        font-size: 0.9em;
+        margin-top: 20px;
+        padding-right: 120px;
+    }
+
+    #vid-tutorial {
+        top: 140px;
+        right: 10px;
+        width: 180px;
+        height: 90px;
+    }
+
+    #free-workout {
+        bottom: 140px;
+        left: 10px;
+        width: 180px;
+        height: 90px;
+    }
+
+    #change-your-habits {
+        width: 100%;
+    }
+
+    #image-container {
+        flex-direction: row;
+        height: fit-content;
+        width: 100%;
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    #image-container>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-container>div>div {
+        margin: 0px 10px;
+    }
+
+    #vid-tutorial>h4,
+    #free-workout>div>h4 {
+        font-size: 1.2em;
+    }
+
+    #vid-tutorial>p,
+    #free-workout>div>p {
+        font-size: 0.8em;
+    }
+
+    #run-main-div {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        height: 80vh;
+    }
+
+    #run-left-div,
+    #run-right-div {
+        width: 100%;
+    }
+
+    #run-right-div {
+        height: fit-content;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #run-right-div>img {
+        height: auto;
+        width: 90%;
+    }
+
+    #main-vid-sec {
+        width: 90%;
+        height: 80%;
+    }
+
+    #if-video {
+        width: 100%;
+    }
+
+    #training-exercises {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #images-of-te>div {
+        flex-direction: column;
+    }
+
+    #heading-of-te {
+        width: 80%;
+
+    }
+
+    #images-of-te {
+        width: 80%;
+    }
+
+    .images-div {
+        width: 100%;
+    }
+
+    #meet-our-team-section {
+        display: none;
+    }
+
+    #upper-card,
+    #lower-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-image {
+        width: 45%;
+        margin: 10px;
+    }
+
+    footer>div {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer>div>div {
+        margin-bottom: 0px;
+    }
+}

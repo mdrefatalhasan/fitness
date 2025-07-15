@@ -8,9 +8,9 @@ This project demonstrates fundamental front-end development skills with a focus 
 
 ## 🌐 Live Site
 
-🔗 [Visit the Live Site](https://daemonofroot.github.io/fitness/)
+🔗 [Visit the Live Site](https://blackboot64x.github.io/fitness/)
 
-📂 [View the Repository](https://github.com/daemonofroot/fitness)
+📂 [View the Repository](https://github.com/blackboot64x/fitness)
 
 ---
 
@@ -18,7 +18,7 @@ This project demonstrates fundamental front-end development skills with a focus 
 
 - ✅ Designed for desktop screens  
 - ✅ Fully responsive for mobile and small devices  
-- ⚠️ **Not responsive for medium-width devices (e.g., tablets)**  
+- ⚠️ **Not fully responsive for medium-width devices (e.g., tablets)**  
   Layout or design issues may occur on tablet-sized screens. This limitation is known and intentional.
 
 ---
@@ -33,7 +33,7 @@ This project demonstrates fundamental front-end development skills with a focus 
 
 ## 👤 Author
 
-Developed by [daemonofroot](https://github.com/daemonofroot)
+Developed by [blackboot64x](https://github.com/blackboot64x)
 
 ---
 
