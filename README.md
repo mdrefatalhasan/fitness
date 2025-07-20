@@ -33,7 +33,7 @@ This project demonstrates fundamental front-end development skills with a focus 
 
 ## 👤 Author
 
-Developed by [blackboot64x](https://github.com/blackboot64x)
+Developed by [Refat al hasan](https://github.com/mdrefatalhasan)
 
 ---
 
