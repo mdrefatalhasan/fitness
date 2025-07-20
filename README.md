@@ -8,9 +8,9 @@ This project demonstrates fundamental front-end development skills with a focus 
 
 ## 🌐 Live Site
 
-🔗 [Visit the Live Site](https://blackboot64x.github.io/fitness/)
+🔗 [Visit the Live Site](https://mdrefatalhasan.github.io/fitness/)
 
-📂 [View the Repository](https://github.com/blackboot64x/fitness)
+📂 [View the Repository](https://github.com/mdrefatalhasan/fitness)
 
 ---
 
